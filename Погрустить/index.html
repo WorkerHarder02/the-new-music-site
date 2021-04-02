@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="none">Все треки в вашей библиотеке:<span class="array"></span></div>
+    <div class=current>
+        <h2>Всего треков в библиотеке:<span class="span"></span></h2>
+    </div>
+    <div class="add">
+        <div>
+            <button class="btn_first">Иницилазировать новый трек!</button>
+            <p>Добавьте имя музыки</p>
+            <input type="text" class="first_input" disabled="disabled">
+            <button id="btn_second" disabled="disabled">
+
+            </button>
+
+            <div>
+                <img id="img"></img>
+            </div>
+        </div>
+        <div>
+            <p>Добавьте свою картинку</p>
+            <input type="file" class="second_input" disabled="disabled"> <button id="btn_third"
+                disabled="disabled"></button>
+        </div>
+        <div>
+            <p>Добавьте свою музыку</p>
+
+
+            <input type="file" class="third_input" disabled="disabled"><button id="btn_fourth"
+                disabled="disabled"></button>
+
+        </div>
+
+
+    </div>
+    <div id="button_next_wrapper"> <button id="button_next" disabled="disabled">NEXT</button></div>
+    <div class="body_wrapper"><input type="file" id="body_bg"></div>
+
+    <div class="button">
+        <div class="button_main"><button id="button"><img src="images/Gatts.jpg" alt=""></button>
+        </div>
+        <div class="wrapper_other">
+            <div class="left_arrow"><img src="images/left2.png" alt=""></div>
+
+            <div class="right_arrow"><img src="images/right5.png" alt=""></div>
+            <div class="loop"><img src="update-arrows.png" alt=""></div>
+            <div class="speed">
+                <select class="select">
+                    <option class="first_o" value="0.5">0.5x</option>
+                    <option selected class="second_o" value="1">1x</option>
+                    <option class="third_o" value="1.5">1.5x</option>
+                    <option class="fourth_o" value="2">2x</option>
+                </select>
+            </div>
+        </div>
+        <div class="current_time"><span class="min_time">00:</span><span class="sec_time">00;</span></div>
+    </div>
+
+    <div class="button_wrapper">
+
+        <button id="minuse"><img id="minuse_img" src="images/минус.jpg" alt=""></button>
+        <button id="plus"><img id="plus_img" src="images/plus.png" alt=""></button>
+        <button id="pause"><img id="pause_img" src="images/pause.png" alt=""></button>
+        <div class="circle"><img id="circle_img" alt=""> </div>
+    </div>
+    <div class="other">
+        <div class="audio_volume">Громкость: 10%</div>
+        <div class="range">Продолжительность вашей музыки-<span class="min">00:</span><span class="sec">00</span>
+
+
+        </div>
+        <div class="now"></div>
+
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>

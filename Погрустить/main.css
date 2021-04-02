@@ -1,0 +1,345 @@
+.button{
+    margin-top:500px!important;
+   
+    margin:0px auto;
+    width:44%;
+}
+#btn_first{
+    width:50px;
+    height:50px;
+}
+#btn_second{
+    width:50px;
+    height:50px;
+}
+#btn_third{
+    width:50px;
+    height:50px;
+}
+.add{
+    padding-top:30px;
+    width:50%;
+    margin:0 auto;
+    display:flex;
+    flex-direction:column;
+    border:2px solid red;
+}
+.add div{
+    margin-top:50px;
+}
+.add p{
+    font-size:50px;
+}
+#btn2{
+    width:50px;
+    height: 50px;
+}
+#btn{
+    width:50px;
+    height:50px;
+}
+.new_input{
+    margin:0 auto;
+    width:10%;
+    border:2px solid red;   
+}
+#plus {
+    margin-top:100px;
+    width:230px;
+    height:230px;
+   
+}
+#plus:hover{
+    cursor:pointer;
+}
+#minuse{
+    margin-top:100px;
+    width:230px;
+    height:230px;
+    margin-right:20px;
+    margin-left:100px;
+}
+#minuse:hover{
+    cursor:pointer;
+}
+#minuse_img{
+    width:100%;
+    height:100%;
+}
+#plus_img{
+    width:100%;
+    height:100%;
+}
+#pause{
+    margin-top:100px;
+    height:230px;
+    width:230px;
+    margin-left:20px;
+}
+#pause:hover{
+    cursor:pointer;
+}
+ 
+#pause_img{
+    
+    width:100%;
+    height:100%;
+}
+.audio_volume{
+    font-size:50px;
+}
+button{
+    outline:none;
+}
+img{
+    width:100%;
+    height:100%;
+}
+.left_arrow{
+    width:200px;
+    height:200px;
+}
+.right_arrow{
+    width:200px;
+    height:200px;
+}
+.array{
+    font-size:50px;
+}
+.range{
+    font-size:50px;
+}
+.counter{
+    font-size:50px;
+}
+ 
+.current {
+    font-size:50px;
+    background: linear-gradient(red, blue); /* Градиент для текста */
+   }
+.current h2 {
+    font-size: 3rem; /* Размер текста */
+    margin: 0; /* Убираем отступы */
+    background: white; /* Белый цвет фона */
+    mix-blend-mode: screen; /* Режим наложения */
+   }
+   @keyframes gradient {
+    0% {
+      color: red;
+    }
+    14% {
+      color: orange;
+    }
+    28% {
+      color: yellow;
+    }
+    42% {
+      color: green;
+    }
+    56% {
+      color: aqua;
+    }
+    70% {
+      color: blue;
+    }
+    100% {
+      color: purple;
+    }
+  }
+  
+  span {
+    animation: 5s infinite alternate gradient;
+  }
+  .now{
+      font-size:50px;
+  }
+  .other{
+      margin-top:50px;
+      display:flex;
+      justify-content: row;
+    
+  }
+  .audio_volume{
+      margin-right:100px;
+  }
+  .now{
+      margin-left:100px;
+  }
+  
+ 
+.button_wrapper{
+    display:flex;
+    justify-content:row;
+}
+.first_button_lol{
+    width:50px;
+    height:50px;
+}
+.array{
+    font-size:50px;
+}
+.none{
+    font-size:50px;
+}
+#button_next_wrapper{
+    margin:0 auto;
+    width:10%;
+    padding-top:30px;
+    border:2px solid red;
+}
+#button_next{
+    margin:0 auto;
+    border:2px solid red;
+    width:50px;
+    height:50px;    
+}
+#btn_fourth{
+    width:50px;
+    height:50px;
+}
+.circle{
+    height:400px;
+    width:400px;
+    margin-left:400px;
+    border-radius:50%;
+    border:3px solid black;
+    background-size:100% 100%!important;
+   
+}
+.circle img{
+    border-radius:50%;
+    width:100%;
+    height:100%;
+}
+
+.button_wrapper{
+    height:400px;
+}
+
+
+
+
+#local_btn{
+    margin-top:30px;    
+}
+.circle {
+   
+     -webkit-animation-name: rotation;
+     -webkit-animation-duration: 5s;
+     -webkit-animation-iteration-count: infinite;
+     -webkit-animation-timing-function: linear;
+     -moz-animation-name: rotation;
+     -moz-animation-duration: 5s;
+     -moz-animation-iteration-count: infinite;
+     -moz-animation-timing-function: linear;
+     -o-animation-name: rotation;
+     -o-animation-duration: 5s;
+     -o-animation-iteration-count: infinite;
+     -o-animation-timing-function: linear;
+     animation-name: rotation;
+     animation-duration: 5s;
+     animation-iteration-count: infinite;
+     animation-timing-function: linear;
+ }
+ 
+ @-webkit-keyframes rotation {
+     0% {-webkit-transform:rotate(0deg);
+         -moz-transform:rotate(0deg);
+         -o-transform:rotate(0deg);
+         transform:rotate(0deg);}
+     100% {-webkit-transform:rotate(360deg);
+         -moz-transform:rotate(360deg);
+         -o-transform:rotate(360deg);
+         transform:rotate(360deg);}
+ }
+ @-moz-keyframes rotation {
+     0% {-webkit-transform:rotate(0deg);
+         -moz-transform:rotate(0deg);
+         -o-transform:rotate(0deg);
+         transform:rotate(0deg);}
+     100% {-webkit-transform:rotate(360deg);
+         -moz-transform:rotate(360deg);
+         -o-transform:rotate(360deg);
+         transform:rotate(360deg);}
+ }
+ @-o-keyframes rotation {
+     0% {-webkit-transform:rotate(0deg);
+         -moz-transform:rotate(0deg);
+         -o-transform:rotate(0deg);
+         transform:rotate(0deg);}
+     100% {-webkit-transform:rotate(360deg);
+         -moz-transform:rotate(360deg);
+         -o-transform:rotate(360deg);
+         transform:rotate(360deg);}
+ }
+ @keyframes rotation {
+     0% {-webkit-transform:rotate(0deg);
+         -moz-transform:rotate(0deg);
+         -o-transform:rotate(0deg);
+         transform:rotate(0deg);}
+     100% {-webkit-transform:rotate(360deg);
+         -moz-transform:rotate(720deg);
+         -o-transform:rotate(360deg);
+         transform:rotate(360deg);}
+ }
+ .current_time{
+     font-size:50px;
+ }
+ .left_arrow{
+    
+ }
+ .button{
+    width:80%;
+   
+ }
+ .loop{
+     height:200px;
+     width:200px;
+ }
+ .wrapper_other{
+     margin-top:50px;
+     display:flex;
+     justify-content: space-around;
+ }
+ .current_time{
+     width:20%;
+     padding-top:30px;
+    
+     margin:0 auto;
+ }
+ .loop_next{
+     background:rgba(3, 179, 255, 0.3);
+ }
+ .button_main{
+    margin:0 auto;
+    width:60%;
+ }
+.speed{
+    font-size:50px;
+    width:100px;
+    height:30px;
+}
+.speed select{
+    width:100%;
+    height:100%;
+}   
+body{
+    background:url("images/town.jpg")no-repeat;
+    background-size:100% 100%!important;
+    	
+background-attachment:fixed;
+}
+.other{
+    padding-bottom:100px;
+}
+input[type="text"]{
+    font-size:50px;
+}
+input[type="file"]{
+    font-size:50px;
+}
+ 
+p{
+    font-size:50px;
+    color:yellowgreen
+}
